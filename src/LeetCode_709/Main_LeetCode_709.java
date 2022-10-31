@@ -1,5 +1,6 @@
 package LeetCode_709;
 
+//Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.
 public class Main_LeetCode_709 {
     public static void main(String[] args) {
         String test = "HELLO WORLD";
