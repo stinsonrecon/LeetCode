@@ -9,9 +9,15 @@ package LeetCode_Easy.LeetCode_744;
 //Output: "c"
 //Explanation: The smallest character that is lexicographically greater than 'a' in letters is 'c'.
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main_LeetCode_744 {
     public static void main(String[] args) {
-
+        String option = "vOiCe,sms,internet,osa,adj";
+        String condition = "voice";
+        boolean check = option.toLowerCase().contains(condition);
+        System.out.println(check);
     }
 
     public static char nextGreatestLetter(char[] letters, char target) {
