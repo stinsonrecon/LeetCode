@@ -9,9 +9,7 @@ import java.util.Scanner;
 
 public class Main_LeetCode_650 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("n = ");
-        System.out.println("Min step: " + minSteps(scanner.nextInt()));
+        System.out.println("Min step: " + minSteps(8));
     }
 
     static int minSteps(int n) {
