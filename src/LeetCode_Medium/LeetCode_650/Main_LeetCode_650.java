@@ -5,11 +5,10 @@ package LeetCode_Medium.LeetCode_650;
 //- Paste: You can paste the characters which are copied last time.
 // Given an integer n, return the minimum number of operations to get the character 'A' exactly n times on the screen.
 
-import java.util.Scanner;
 
 public class Main_LeetCode_650 {
     public static void main(String[] args) {
-        System.out.println("Min step: " + minSteps(8));
+        System.out.println("Min step: " + minSteps(11));
     }
 
     static int minSteps(int n) {
